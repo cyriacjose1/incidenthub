@@ -1,0 +1,13 @@
+package com.incidenthub.incident.entity;
+
+public enum IncidentEventType {
+    INCIDENT_CREATED,
+    STATUS_CHANGED,
+    SEVERITY_CHANGED,
+    RESPONDER_ASSIGNED,
+    RESPONDER_REMOVED,
+    COMMENT_ADDED,
+    COMMANDER_CHANGED,
+    INCIDENT_RESOLVED,
+    POSTMORTEM_CREATED
+}
