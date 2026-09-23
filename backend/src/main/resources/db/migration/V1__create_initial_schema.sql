@@ -120,6 +120,7 @@ CREATE TABLE postmortems (
     summary TEXT NOT NULL,
     root_cause TEXT,
     impact TEXT,
+    lessons_learned TEXT,
     created_by BIGINT NOT NULL,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
